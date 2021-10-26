@@ -46,10 +46,14 @@ a:hover{
 
 .logo-container{
     background-color: #001529;
-    display: flex;
+    /* display: flex; */
     padding: 20px;
     align-items: center;
     width: 100%;
+}
+.logo-container div{
+    display: flex;
+    align-content: center;
 }
 .logo{
     margin:0 0 0 15px;
@@ -376,3 +380,10 @@ width: 70%;
     padding: 20px;
     align-items: center;
 }
+
+/* .footer div{
+    display: flex;
+}
+.footer Link{
+    margin: 0px 5px;
+} */
